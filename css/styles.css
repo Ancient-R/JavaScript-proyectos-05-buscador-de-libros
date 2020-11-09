@@ -1,0 +1,42 @@
+.navbar-brand{
+    font-size: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.texto-info {
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+footer {
+    color: white;
+}
+.card-img-top{
+    max-width: 100%;    
+}
+
+.col-12,
+.col-4{
+    margin-bottom: 1.5rem;
+}
+
+.btn{
+    /* width: 100%; */
+    border-top-color: lightgrey;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.list-group-item{
+    border-top-color: lightgrey;
+    background-color: white;
+    color: black;
+}
+
+.list-group-item:hover{
+    background-color: lightgray;
+    color: white;
+}

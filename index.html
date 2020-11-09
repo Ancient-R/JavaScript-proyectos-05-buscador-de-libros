@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Libros</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-5">
+        <a class="navbar-brand" href="#">Buscador de Libros</a>
+    </nav> 
+    <div class="container buscador">
+
+        <div id="buscador" class=" card card-body">
+
+            <h1 class="text-center">Busca libros de tu interes por título o autor</h1>
+            <div class="form-group">
+                <label for="exampleSelect1">Título de Libro</label>
+                <input type="text" class="form-control" id="titulo-libro"></input>
+            </div>
+
+            <div class="form-group">
+                <label for="">Nombre de autor</label>
+                <input type="text" class="form-control" id="nombre-autor"></input>
+            </div> 
+            <input type="submit" class="mt-2 form-control btn btn-success" id="buscarBtn" value="Buscar">
+        </div>  
+        <div id="resultado-busqueda" class="row mt-5"></div>
+    </div>
+    
+    <footer class="mt-5 p-3 text-center bg-primary">
+        Buscador de Libros &copy;
+    </footer>
+
+    <script src="js/api.js"></script>
+    <script src="js/interfaz.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
